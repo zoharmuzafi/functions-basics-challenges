@@ -17,21 +17,19 @@ function isEven(num){
 
 function swap(arr, idx1, idx2){
 	var value1 = arr[idx1];
-	var value2 = arr[idx2];
-	arr[idx1] = value2;
+	arr[idx1] = arr[idx2];
 	arr[idx2] = value1;
-
 	return arr;
 
 }
 
-//challenge 4
+//challenge #4
 
 function getRand(min, max){
 	return (Math.random()*(max-min))+min;
 }
 
-// challenge 5
+// challenge #5
 function randArr(size){
 	var arr = [];
 	for(var i = 0; i<size; i++){
